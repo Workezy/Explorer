@@ -1,0 +1,246 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+  ol, ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+    background-image: url(/img/bg.png);
+    width: 1440px;
+    height: 2080px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.navigation {
+    margin-bottom: 74px;
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item a {
+    margin-right: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1.3px;
+    color: white;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+.nav-block {
+    padding-left: 44px;
+}
+
+.wrapper {
+    width: 800px;
+    background: white;
+    margin: 0 auto;
+}
+
+.travel-men {
+    position: absolute;
+    display: flex;
+    padding: 160px 60px 130px;
+}
+
+.travel-men-description {
+    padding-left: 14px;
+    color: white;
+}
+
+.travel-men-title {
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.travel-men-subtitle {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.travel-text {
+    position: absolute;
+    padding: 220px 60px 40px;
+    font-size: 28px;
+    line-height: 35px;
+    color: white;
+}
+
+.travel-description {
+    font-family: 'Lato', sans-serif;
+    padding: 36px 76px 44px 60px;
+}
+
+.travel-description p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.travel-description a {
+    color: #8D4FDB;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.map-women {
+    position: absolute;
+    display: flex;
+    padding: 160px 60px 130px;
+}
+
+.map-women p {
+    color: white;
+    padding-left: 14px;
+}
+
+.map-subtitle {
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.map-sub-title {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.map-text {
+    position: absolute;
+    padding: 220px 60px 40px;
+    color: white;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.archive-container {
+    padding-top: 49px;
+    height: 211px;
+    background-color:#F1F1F1;
+}
+
+.archive-text {
+    text-align: center;
+}
+
+.archive-text p {
+    margin-bottom: 21px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.archive-text a {
+    padding: 8px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    line-height: 30px;
+    background-color: #8D4FDB;
+    border: 6px solid #8D4FDB;
+    border-radius: 3px;
+}
+
+.stories {
+    padding-top: 85px;
+    width: 1440px;
+}
+
+.stories-chapter {
+    text-align: center;
+}
+
+.stories-title {
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.stories-subtitle {
+    font-family: 'Lato', sans-serif;
+    padding-top: 25px;
+    font-size: 23px;
+    line-height: 33px;
+    color: #A9AFB3;
+}
+
+.stories-list {
+    display: flex;
+    justify-content: center;
+}
+
+.stories-item {
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.stories-item p {
+    padding-top: 23px;
+    font-size: 18px;
+    color: black;
+    line-height: 28px;
+}
+
+.stories-footer {
+    font-family: 'Lato', sans-serif;
+    padding-top: 56px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.stories-footer a {
+    text-decoration: none;
+    color: #8D4FDB;
+}
+
+footer {
+    width: 1440px;
+    height: 166px;
+    background: #000000;
+}
+
+.footer-item {
+    font-family: 'Lato', sans-serif;
+    padding-top: 55px;
+    text-align: center;
+    color: #8B8B8B;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #8D4FDB;
+}
